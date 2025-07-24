@@ -51,55 +51,63 @@
 
 
 #------------------------------------GAME----------------------------------------
-monster = 100
-longsword = 60
-dagger = 20
-bow = 30
-start = True
-while start:
-    print("---------Welcome to kiritoo! Game---------")
-    print("ระหว่างที่คุณกำลังเดินทางไปเรื่อยเปื่อยคุณดันเผลอเดินไปชนกับบอสจึงทำให้บอสโกรธ")
-    print(" สู้กับบอส กด 1  :")
-    print(" วิ่งหนีสับตีนเเตก กด2  :")
-    x = int (input("คุณจะเลือกตัวเลือกไหน  :  "))
-    if(x == 1):
-        attacktimes = int(input("จะตีมอนกี่ครั้ง :"))
-        print("-------คุณมีอาวุธ 3 อย่างในการเลือกใช้ต่อสู้กับบอส-------")
-        print("Monster มีเลือด 100 หน่วย")
-        for i in range (attacktimes):
-            print("----------------------------------------------------")
-            print("Monster HP remaining",monster )
-            print("-------คุณมีอาวุธ 3 อย่างในการเลือกใช้ต่อสู้กับบอส-------")
-            print("เลือก Longsword [1] มี damage ",longsword)
-            print("เลือก Dagger [2] มี Damage ",dagger)
-            print("เลือก Bow [3] มี Damage ",bow)
-            print("เหลือโอกาศตีอีก", attacktimes - i)
-            y = int(input("คุณจะเลือกใช้อาวุธไหน :"))
-            if(y == 1):
-                monster -= 60
-                print("Monster HP remaining",monster )
-            elif(y == 2):
-                monster -= 20
-                print("Monster HP remaining",monster )
-            elif(y == 3):
-                monster -= 30
-                print("Monster HP remaining",monster )
-            if monster < 0:
-               monster = 20 
-            if monster == 0:
-                print("You win")
-                break
-        else:
-            print("You Lose")
-    elif (x == 2):
-        print("คุณวิ่งหนีไม่สำเร็จ ตุยเย่")
-        break
-    else:
-        print("wrong")
-        print("ไปเรื่อยละนิ")
-        
-    start = False
 
+
+
+# monster = 100
+# longsword = 60
+# dagger = 20
+# bow = 30
+# start = True
+# while start:
+#     print("---------Welcome to kiritoo! Game---------")
+#     print("ระหว่างที่คุณกำลังเดินทางไปเรื่อยเปื่อยคุณดันเผลอเดินไปชนกับบอสจึงทำให้บอสโกรธ")
+#     print(" สู้กับบอส กด 1  :")
+#     print(" วิ่งหนีสับตีนเเตก กด2  :")
+#     x = int (input("คุณจะเลือกตัวเลือกไหน  :  "))
+#     if(x == 1):
+#         attacktimes = int(input("จะตีมอนกี่ครั้ง :"))
+#         print("-------คุณมีอาวุธ 3 อย่างในการเลือกใช้ต่อสู้กับบอส-------")
+#         print("Monster มีเลือด 100 หน่วย")
+#         for i in range (attacktimes):
+#             print("----------------------------------------------------")
+#             print("Monster HP remaining",monster )
+#             print("-------คุณมีอาวุธ 3 อย่างในการเลือกใช้ต่อสู้กับบอส-------")
+#             print("เลือก Longsword [1] มี damage ",longsword)
+#             print("เลือก Dagger [2] มี Damage ",dagger)
+#             print("เลือก Bow [3] มี Damage ",bow)
+#             print("เหลือโอกาศตีอีก", attacktimes - i)
+#             y = int(input("คุณจะเลือกใช้อาวุธไหน :"))
+#             if(y == 1):
+#                 monster -= 60
+#                 print("Monster HP remaining",monster )
+#             elif(y == 2):
+#                 monster -= 20
+#                 print("Monster HP remaining",monster )
+#             elif(y == 3):
+#                 monster -= 30
+#                 print("Monster HP remaining",monster )
+#             if monster < 0:
+#                monster = 20 
+#             if monster == 0:
+#                 print("You win")
+#                 break
+#         else:
+#             print("You Lose")
+#     elif (x == 2):
+#         print("คุณวิ่งหนีไม่สำเร็จ ตุยเย่")
+#         break
+#     else:
+#         print("wrong")
+#         print("ไปเรื่อยละนิ")
+        
+#     start = False
+
+
+
+    #-------------------------------------------------------------------------------------------------------#
+if True:
+    print("Hi")
 
 
 
